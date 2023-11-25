@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-Thin___43dd5b7a3d277362d5e801e5353e3a01.ttf);
+    font-weight: 100
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-ExtraLight___570a244cacd3d78b8c75ac5dd622f537.ttf);
+    font-weight: 200
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-Light___409c7f79a42e56c785f50ed37535f0be.ttf);
+    font-weight: 300
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-Regular___ee6539921d713482b8ccd4d0d23961bb.ttf);
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-Medium___c8b6e083af3f94009801989c3739425e.ttf);
+    font-weight: 500
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-SemiBold___c641dbee1d75892e4d88bdc31560c91b.ttf);
+    font-weight: 600
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-Bold___ade91f473255991f410f61857696434b.ttf);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-ExtraBold___19ba7aa52a78c3896558ac1c0a5fb4c7.ttf);
+    font-weight: 800
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://mxmoto.vtexassets.com/assets/vtex/assets-builder/mxmoto.motorola-components/2.0.10/fonts/Montserrat-Black___27e3649bab7c62fa21b8837c4842e40e.ttf);
+    font-weight: 900
+}

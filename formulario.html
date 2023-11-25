@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        img {
+            max-width: 50%;
+            height:auto;
+            margin-top: 10px;
+            width: 15px;
+            height: 15px;
+        }
+
+        .back-button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            background-color: #2980b9;
+        }
+        
+        .Diego {
+            display: flex;
+            flex-direction: column;
+            align-items: self-start;
+            justify-content: center;
+            width: 350px;
+
+        }
+
+        
+        .titulo {
+            display: flex;
+        }
+        
+        h2 {
+            font-style: normal;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:large;
+        }
+
+        .social-media {
+            margin-top: 20px;
+            display: Flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+        }
+
+        .social-media label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .social-media input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        #Yandel img {
+            width: 1000px;
+            height: 500px;
+        }
+        
+        .confirmation {
+            text-align: center;
+            display: none;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post" id="Contacto">
+        <div class="social-media">
+            <h2>Redes Sociales <Br>
+                de la Tienda</h2>
+
+            <label for="Telefonos">
+                <img src="https://img.freepik.com/vector-premium/icono-telefono-vectorial_141130-3871.jpg" alt="Telefonos Logo"> Telefonos:
+            </label>
+            <label for="Telefonos">(+52)8154273622</label>
+            <label for="Telefonos">(+52)8163234783</label>
+            <label for="Telefonos">(+52)8164623672</label>
+
+            <label for="Facebook">
+                <img src="https://www.unipile.com/wp-content/uploads/2022/06/logo-facebook-noir.png" alt="Facebook Logo"> Facebook:
+            </label>
+            <label for="facebook">Droid Official Page</label>
+
+            <label for="Whatsapp">
+                <img src="https://assets.stickpng.com/thumbs/5a4e2ef62da5ad73df7efe6e.png" alt="Whatsapp Logo"> Whatsapp:
+            </label>
+            <label for="Whatsapp">(+52)8182706382</label>
+            </label>
+            <label for="Ubicanos">
+                <img style="height: 20px; width: 20px;" src="https://th.bing.com/th/id/OIP.O5uo4e0PVmMXIBLOxQToEgAAAA?rs=1&pid=ImgDetMain" alt="Ubicanos Logo"> Ubicanos!:
+            </label>
+            <label for="Ubicanos"> <a href="sucursales.html">Ver Ubicaciones</a> </label>
+        </div>
+
+        <div class="Diego">
+            <Center><label for="name">Nombre:</label></Center>
+            <input type="text" id="name" name="name" required>
+    
+            <Center><label for="email">Correo Electrónico:</label></Center>
+            <input type="email" id="email" name="email" required>
+    
+            <Center><label for="subject">Asunto:</label></Center>
+            <input type="text" id="subject" name="subject" required>
+    
+            <Center><label for="message">Mensaje:</label></Center>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit" onclick="showConfirmation()">Enviar Mensaje</button>
+            </div>
+    </form>
+
+    <div class="confirmation" id="Yandel">
+        <p>Mensaje enviado con éxito. ¡Gracias por contactarnos!</p>
+        <div><img src="Nextron.jpeg" alt="Kitten"></div>
+        <button width="500px" class="back-button" onclick="resetForm()">Enviar otro mensaje</button>
+    </div>
+
+    <script>
+        function showConfirmation() {
+            document.getElementById("Contacto").style.display = "none";
+            document.getElementById("Yandel").style.display = "flex";
+        }
+
+        function resetForm() {
+            document.getElementById("Contacto").style.display = "flex";
+            document.getElementById("Yandel").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

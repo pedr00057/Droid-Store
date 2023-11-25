@@ -1,0 +1,28 @@
+.humilde{
+    width: auto;
+    height: 400px;
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 12px;
+    box-shadow:
+    inset 20px 0 50px rgba(0, 0, 0, .5),
+    0 10px 100px rgba(0, 0, 0, .5);
+    align-items: center;
+}
+h1{
+    color: #1C1C1C;
+}
+.texthud{
+    display: flex;
+    flex-direction: column;
+}
+.humilde p{
+    background-color: #00000000;
+    width: 700px;
+    color: #C6C6C6;
+}
+.Nextron{
+    height: 500px;
+    transform: translate(-50px, 0px);
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Droid Store México</title>
+    <link rel="shortcut icon" href="images/robot.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navawesome.css">
+    <link rel="stylesheet" href="assets/css/OficialFont.css">
+    <link rel="stylesheet" href="assets/css/contactanos.css">
+</head>
+
+<body>
+    <header class="initial-scale">
+        <div class="logot">
+            <img src="images/robot.png" alt="logo" class="logo">
+            <div class="encabezado">
+                <span><a href="index.html">DROID STORE</a></span>
+            </div>
+        </div>
+        <nav class="nav__container">
+            <ul class="ul__nav">
+                <li> <a href="nosotros.html"> ¿Quiénes somos?</a></li>
+                <li> <a href="historia.html"> Historia</a></li>
+                <li> <a href="catalogo.html"> Catálogo</a></li>
+                <li> <a href="promociones.html"> Promociones</a></li>
+                <li> <a href="sucursales.html"> Sucursales</a></li>
+                <li class="home"> <a href="contactanos.html">Contáctanos</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <section class="seccion-1" style="height: 200px;" data-aos="fade-up">
+            <h1>Contáctanos</h1>
+        </section>
+
+        <section class="seccion-2" style="align-items: center; height: 600px;" data-aos="fade-up">
+            <form action="#" method="post" id="Contacto">
+                <div class="social-media">
+                    <h2>Nuestras <br> redes sociales</h2>
+
+                    <label for="Telefonos">
+                        <img src="https://img.freepik.com/vector-premium/icono-telefono-vectorial_141130-3871.jpg"
+                            alt="Telefonos Logo"> Telefonos:
+                    </label>
+                    <label for="Telefonos">(+52) 81-5427-3622</label>
+                    <label for="Telefonos">(+52) 81-6323-4783</label>
+                    <label for="Telefonos">(+52) 81-6462-3672</label>
+
+                    <label for="Facebook">
+                        <img src="https://www.unipile.com/wp-content/uploads/2022/06/logo-facebook-noir.png"
+                            alt="Facebook Logo"> Facebook:
+                    </label>
+                    <label for="facebook"> <a target="_blank" href="https://www.facebook.com/AndroidOfficial">Droid
+                            Official Page</a> </label>
+
+                    <label for="Whatsapp">
+                        <img src="https://assets.stickpng.com/thumbs/5a4e2ef62da5ad73df7efe6e.png" alt="Whatsapp Logo">
+                        Whatsapp:
+                    </label>
+                    <label for="Whatsapp">(+52) 81-8270-6382</label>
+                    </label>
+                    <label for="Ubicanos">
+                        <img style="height: 20px; width: 20px;"
+                            src="https://th.bing.com/th/id/OIP.O5uo4e0PVmMXIBLOxQToEgAAAA?rs=1&pid=ImgDetMain"
+                            alt="Ubicanos Logo"> Ubicanos!:
+                    </label>
+                    <label for="Ubicanos"> <a href="sucursales.html">Ver Ubicaciones</a> </label>
+                </div> <br>
+
+                <div class="Diego">
+                    <Center><label for="name">Nombre:</label></Center>
+                    <input type="text" id="name" name="name" required>
+
+                    <Center><label for="email">Correo Electrónico:</label></Center>
+                    <input type="email" id="email" name="email" required>
+
+                    <Center><label for="subject">Asunto:</label></Center>
+                    <input type="text" id="subject" name="subject" required>
+
+                    <Center><label for="message">Mensaje:</label></Center>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit" onclick="showConfirmation()">Enviar Mensaje</button>
+                </div>
+            </form>
+
+            <div class="confirmation" id="Yandel">
+                <p style="color: #1C1C1C;" >Mensaje enviado con éxito. ¡Gracias por contactarnos!</p>
+                <div><img src="images/Nextron.jpeg" alt="Kitten"></div>
+                <button class="Resetformm" style="font-family: 'DM Sans', sans-serif;" width="500px" class="back-button"
+                    onclick="resetForm()">Enviar otro mensaje</button>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content-container">
+                <h3 class="website-logo">Droid Store</h3>
+                <span class="footer-info">81 2345 5672</span>
+                <span class="footer-info">info@droidstore.com</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <span class="menu-title">menu</span>
+                    <a href="index.html" class="menu-item-footer">Inicio</a>
+                    <a href="catalogo.html" class="menu-item-footer">Teléfonos</a>
+                    <a href="sucursales.html" class="menu-item-footer">Ubícanos</a>
+                </div>
+                <div class="footer-content-container">
+                    <span class="menu-title">legal</span>
+                    <a href="politica.html" class="menu-item-footer">Política de privacidad</a>
+                    <a href="cookies.html" class="menu-item-footer">Cookies</a>
+                    <a href="legal.html" class="menu-item-footer">Aviso Legal</a>
+                </div>
+            </div>
+
+            <div class="footer-content-container">
+                <span class="menu-title">¡Síguenos!</span>
+                <div class="social-container">
+                    <a href="https://instagram.com/" class="social-link" target="_blank"><i class="fa fa-instagram"
+                            style="color: #fff;"></i></a>
+                    <a href="https://www.tiktok.com/" class="social-link" target="_blank"><i class="fa-brands fa-tiktok"
+                            style="color: #fff;"></i></a>
+                    <a href="https://twitter.com/" class="social-link" target="_blank"><i class="fa fa-twitter"
+                            style="color: #fff;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <span class="copyright"> &copy;Droid Store 2023, droidstore.com. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="https://kit.fontawesome.com/bc48b26896.js" crossorigin="anonymous"></script>
+    <script src="assets/js/contactanos.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                centeredSlides: true,
+                modifier: .75,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: true,
+        });
+    </script>
+    <script>
+
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

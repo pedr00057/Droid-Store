@@ -1,0 +1,305 @@
+
+article {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.seccion-1 {
+    height: 500px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-1 {
+    align-items: center;
+}
+
+.seccion-2 {
+    height: 1250px;
+}
+
+.seccion-2 {
+    align-items: center !important;
+}
+
+ul {
+    list-style: none;
+}
+
+.contenedor-celulares-iphone,
+.contenedor-celulares-samsung,
+.contenedor-celulares-xiaomi,
+.contenedor-celulares-motorola,
+.contenedor-celulares-huawei {
+    display: none;
+    justify-content: space-around;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenedor-celulares-motorola,
+.contenedor-celulares-samsung {
+    height: 800px;
+}
+
+main {
+    height: 1250px;
+}
+
+.fondo-espera img {
+    height: 450px;
+}
+
+.contenedor-celulares-motorola h3, 
+.contenedor-celulares-motorola p, 
+.contenedor-celulares-motorola button a{
+    font-family: 'Montserrat';
+}
+.contenedor-celulares-iphone h3,
+.contenedor-celulares-iphone p,
+.contenedor-celulares-iphone button a{
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.contenedor-celulares-samsung h3,
+.contenedor-celulares-samsung p,
+.contenedor-celulares-samsung button a{
+    font-family: 'Samsung Sharp Sans Bold';
+}
+
+.contenedor-celulares-xiaomi h3,
+.contenedor-celulares-xiaomi p,
+.contenedor-celulares-xiaomi button a{
+    font-family: 'Xiaomi Brand', 'Camphor Pro', sans-serif;
+}
+
+.contenedor-celulares-motorola h3 {
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.contenedor-celulares-huawei h3,
+.contenedor-celulares-huawei p,
+.contenedor-celulares-huawei button a{
+    font-family: 'Manrope';
+}
+
+.contenedor-celulares-huawei h3{
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700 !important;
+}
+.contenedor-oppo {
+    align-items: center !important;
+    font-family: "OPPOSans-Ver2-Bold";
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.oppocol {
+    height: 452px;
+    width: 286px;
+    background-color: #00000000;
+    margin: 20px;
+    background-color: #1C1C1C;
+}
+
+.textoppocol p a {
+    font-family: "OPPOSans-Ver2-Bold";
+    color: #1C1C1C;
+    font-size: 24px;
+    text-decoration: none !important;
+}
+
+.textoppocol a {
+    color: #1C1C1C;
+    text-decoration: underline !important;
+    font-family: "OPPOSans-Ver2-Bold";
+}
+
+.imgoppocol {
+    width: 286px;
+    height: 314px;
+}
+
+.imgoppocol img {
+    height: 314px;
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+
+    padding: 0 25px 0 20px;
+}
+
+.imgoppocol img:hover {
+    height: 334px;
+}
+
+.textoppocol {
+    margin: 10px;
+    color: #1C1C1C;
+    height: 120px;
+    text-align: left;
+    background-color: #C6C6C6;
+    padding: 0 0 50px 0;
+    margin: -1px;
+}
+
+.textoppocol p {
+    background-color: #00000000;
+    text-align: left !important;
+    font-family: "OPPOSans-Ver2-Regular";
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 75px;
+}
+
+.contenedor-oppo h1 {
+    text-align: center;
+}
+
+.seccion-2 .sec-title {
+    font-family: "OPPOSans-Ver2-Bold";
+}
+
+.cat {
+    display: flex;
+    align-items: center;
+}
+
+.boton-cat {
+    justify-content: space-evenly;
+    background-color: #A4C639;
+    border-style: none;
+    color: #1C1C1C;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+ul>li:nth-child(1)>.boton-cat {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul>li:nth-child(2)>.boton-cat {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Samsung Sharp Sans Bold';
+}
+
+ul>li:nth-child(3)>.boton-cat {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Xiaomi Brand', 'Camphor Pro', sans-serif;
+}
+
+ul>li:nth-child(4)>.boton-cat {
+    width: auto;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+ul>li:nth-child(5)>.boton-cat {
+    width: auto;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Manrope";
+}
+
+.productos {
+    background-color: #1C1C1C;
+    margin: 10px;
+    width: 150px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.producto-imagen {
+    height: 200px;
+    border-radius: 12px;
+}
+.contenedor-celulares-motorola .producto-imagen{
+    width: 150px;
+    border-radius: 12px;
+}
+
+.contenedor-celulares-samsung .productos .producto-imagen{
+    transform: translate(-50px, 0);
+    width: auto;
+}
+
+.contenedor-celulares-huawei .productos .producto-imagen{
+    height: 200px;
+}
+
+.producto-detalles {
+    height: 100px;
+}
+
+.producto-comprar{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 700;
+    border-style: none;
+    color: #C6C6C6;
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #1C1C1C;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    z-index: 1;
+    transform: translate(-50px, 0px);
+    overflow: hidden;
+    border-radius: 100px;
+    text-transform: capitalize;
+}
+
+.producto-comprar a{
+    color: #C6C6C6;
+}
+
+.producto-comprar a:hover{
+    color: #1C1C1C;
+}
+
+.producto-comprar:hover {
+    color: #1C1C1C;
+}
+
+.producto-comprar::after,
+.producto-comprar::before {
+    content: '';
+    background-color: #A4C639;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    transition: 0.3s cubic-bezier(.785, .135, .15, .86);
+    -webkit-transition: 0.3s cubic-bezier(.785, .135, .15, .86);
+    z-index: -1;
+}
+
+.producto-comprar:hover::after {
+    color: #C6C6C6;
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.producto-comprar::after {
+    bottom: 0;
+    color: #C6C6C6;
+    right: auto;
+    left: 0;
+}

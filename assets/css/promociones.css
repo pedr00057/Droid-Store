@@ -1,0 +1,142 @@
+article, .seccion-1, .seccion-2{
+    align-items: center !important;
+}
+.seccion-1 h1{
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.promocion-1{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.seccion-1{
+    align-items: center !important;
+    height: 150px;
+    width: auto;
+    background-color: #fff;
+}
+.promocion-1 .promo-text{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-600px, 0px);
+}
+.promocion-1{
+    width: 1470px;
+}
+.promo-text p a{
+    color: #1C1C1C;
+    text-decoration: underline !important;
+}
+.promo{
+    height: 460px;
+}
+.promo h1{
+    transform: translate(90px, -400px);
+    color: #C6C6C6;
+    width: 400px;
+    font-family: 'Xiaomi Brand', 'Camphor Pro', sans-serif;
+}
+.promo h2{
+    transform: translate(-38px, -450px);
+    color: #C6C6C6;
+    font-weight: 100;
+    font-family: 'Xiaomi Brand', 'Camphor Pro', sans-serif;
+    width: 550px;
+    background-color: #00000000;
+}
+.promo img{
+    height: 460px;
+}
+.promo p{
+    width: 650px;
+    font-family: 'Xiaomi Brand', 'Camphor Pro', sans-serif;
+    color: #C6C6C6;
+    transform: translate(-90px, -460px);
+    background-color: #00000000;
+}
+.linkprom a:active{
+    color: #1C1C1C;
+}
+.linkproma{
+    transform: translate(-350px, -400px);
+    background-color: #00000000;
+    border-radius: 100px;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    font-weight: 700;
+    border-style: none;
+    font-family: 'Xiaomi Brand', 'Camphor Pro', sans-serif;
+    color: #C6C6C6;
+    font-weight: 500;
+}
+.linkproma a{
+    color: #C6C6C6;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Xiaomi Brand', 'Camphor Pro', sans-serif;
+    padding: 5px;
+}
+.linkproma a:hover{
+    text-decoration: underline #C6C6C6 !important;
+}
+.linkproma a:active{
+    color: #C6C6C6;
+}
+.promor{
+    height: 500px;
+}
+.promor h1{
+    transform: translate(90px, -400px);
+    color: #C6C6C6;
+    width: 400px;
+    font-family: 'Monda';
+}
+.promor h2{
+    transform: translate(-10px, -450px);
+    color: #A4C639;
+    font-weight: 100;
+    font-family: 'Monda';
+    width: 550px;
+    background-color: #00000000;
+}
+.promor img{
+    height: 430px;
+}
+.promor p{
+    width: 650px;
+    color: #C6C6C6;
+    transform: translate(-80px, -460px);
+    background-color: #00000000;
+}
+.pricee{
+    transform: translate(1000px, -700px) !important;
+    width: 400px;
+}
+.promor .linkproma{
+    transform: translate(-565px, -450px);
+}
+.promocion-3{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.promocion-3 .promo-text{
+    display: flex;
+    flex-direction: column;
+    transform: translate(-500px, 0px);
+}
+.promocion-3{
+    width: 1470px;
+}
+.promocion-3 .promo-text img{
+    transform: translate(0, -275px);
+}
+.promocion-3 .promo-text h1{
+    transform: translate(-775px, 50px);
+}
+.promocion-3 .promo-text p{
+    width: 350px !important;
+    transform: translate(200px, 200px);
+}
